@@ -5,8 +5,8 @@ export default function WhatInBox() {
         <img src="6.png" className="w-full" />
       </div>
       <div data-aos="fade-left" className="w-full max-w-xl space-y-5 md:pl-14">
-        <h1 className="text-5xl font-bold">What&apos;s in the box</h1>
-        <div className="font-medium text-xl space-y-5">
+        <h1 className="text-4xl sm:text-5xl font-bold">What&apos;s in the box</h1>
+        <div className="font-medium text-lg sm:text-xl space-y-5">
           <p className="flex items-center justify-start">
             <div className=" w-1 h-1 p-2 rounded-full bg-gray-300 mr-3"></div>
             Solo Pro wireless headphones

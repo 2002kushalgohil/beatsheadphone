@@ -8,7 +8,7 @@ export default function Immerse() {
         <img src="2.jpg" className="w-full" />
       </div>
       <div data-aos="fade-left" className="w-full max-w-lg space-y-5">
-        <h1 className="text-5xl font-bold">Immerse yourself in your music</h1>
+        <h1 className="text-4xl sm:text-5xl font-bold">Immerse yourself in your music</h1>
 
         <div className="flex">
           <p className="mr-4 font-medium text-xl">
@@ -22,7 +22,7 @@ export default function Immerse() {
           </div>
         </div>
 
-        <p className="font-medium text-xl">
+        <p className="font-medium text-lg sm:text-xl">
           With an advanced acoustic platform and noise cancelling, Solo Pro
           ensures you&apos;ll always have the right sound for right situation.
         </p>

@@ -150,7 +150,7 @@ export default function Feature() {
   return (
     <div className="overflow-hidden">
       <div className="w-full flex items-center justify-center flex-col text-center">
-        <h1 className="text-5xl font-bold">Solo Pro</h1>
+        <h1 className="text-4xl sm:text-5xl font-bold">Solo Pro</h1>
         <p className="w-full sm:w-96 mt-5 font-medium">
           The only Headset you&apos;ll ever need.
         </p>

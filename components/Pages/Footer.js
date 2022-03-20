@@ -67,7 +67,7 @@ export default function Footer() {
   return (
     <div className="border-t-2 mt-20 border-gray-300">
       <div className="flex mt-10 justify-center items-center text-center flex-col">
-        <h1 className="text-5xl font-bold">Say hello to us</h1>
+        <h1 className="text-4xl sm:text-5xl font-bold">Say hello to us</h1>
         <div className="relative">
           <input
             type="text"
@@ -86,7 +86,7 @@ export default function Footer() {
           fontSize: "17px",
         }}
       >
-        <div className=" flex justify-center xl:justify-start items-center w-full xl:w-1/3 mt-10 xl:mt-0">
+        <div className=" flex justify-center xl:justify-start items-center w-full xl:w-1/3 mt-3 xl:mt-0">
           <p>
             <a href="#">About us</a> &nbsp; | &nbsp;
             <a href="#">Privacy Policy</a> &nbsp; | &nbsp;
