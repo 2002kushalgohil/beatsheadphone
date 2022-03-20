@@ -75,7 +75,7 @@ export default function Footer() {
             className="mt-5 border-2 py-3 pl-7 pr-12 sm:pr-40 rounded-full outline-none bg-white shadow-lg"
           />
           <button className="absolute top-2 right-2 py-1 mt-5 px-4 rounded-full border-2 border-orange-600 bg-orange-600 text-white active:bg-white active:text-orange-600 shadow-lg">
-            Buy Now
+            Send
           </button>
         </div>
       </div>
