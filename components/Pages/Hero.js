@@ -15,7 +15,7 @@ export default function Hero() {
       <img
         data-aos="fade-down"
         src="1.jpg"
-        className="absolute left-0 right-0 ml-auto mr-auto w-[600px]"
+        className="absolute left-0 right-0 ml-auto mr-auto w-[600px] imageAnimation"
       />
     </div>
   );
