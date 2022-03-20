@@ -163,8 +163,8 @@ export default function Feature() {
           <div className="md:flex">
             <div className="md:shrink-0">
               <img
-                className="h-80 w-full object-cover md:h-full md:w-96 rotate-180"
-                src="person.jpg"
+                className="h-80 w-full object-cover md:h-full md:w-80"
+                src="person2.png"
               />
             </div>
             <div className="text-center grid grid-cols-1 sm:grid-cols-2">
