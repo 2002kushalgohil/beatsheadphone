@@ -7,7 +7,7 @@ export default function Controll() {
         </h1>
         <p className="font-medium text-xl">
           With an advanced acoustic platform and noise cancelling, Solo Pro
-          ensures you'll always have the right sound for right situation.
+          ensures you&apos;ll always have the right sound for right situation.
         </p>
       </div>
       <div data-aos="fade-left" className="flex items-center justify-center text-center relative w-11/12 md:9/12 lg:w-6/12">

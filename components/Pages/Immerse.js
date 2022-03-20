@@ -24,7 +24,7 @@ export default function Immerse() {
 
         <p className="font-medium text-xl">
           With an advanced acoustic platform and noise cancelling, Solo Pro
-          ensures you'll always have the right sound for right situation.
+          ensures you&apos;ll always have the right sound for right situation.
         </p>
         <button className="py-3 px-10 rounded-full border-2 border-orange-600 text-orange-600 active:bg-orange-600 active:text-white transition shadow-or shadow-lg">
           Buy Now

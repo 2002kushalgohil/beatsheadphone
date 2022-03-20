@@ -152,22 +152,22 @@ export default function Feature() {
       <div className="w-full flex items-center justify-center flex-col text-center">
         <h1 className="text-5xl font-bold">Solo Pro</h1>
         <p className="w-full sm:w-96 mt-5 font-medium">
-          The only Headset you'll ever need.
+          The only Headset you&apos;ll ever need.
         </p>
       </div>
       <div
         data-aos="fade-up"
         className="flex items-center justify-center py-10"
       >
-        <div class="rounded-xl shadow-xl hover:shadow-2xl transition cursor-pointer overflow-hidden max-w-3xl">
-          <div class="md:flex">
-            <div class="md:shrink-0">
+        <div className="rounded-xl shadow-xl hover:shadow-2xl transition cursor-pointer overflow-hidden max-w-3xl">
+          <div className="md:flex">
+            <div className="md:shrink-0">
               <img
-                class="h-80 w-full object-cover md:h-full md:w-96 rotate-180"
+                className="h-80 w-full object-cover md:h-full md:w-96 rotate-180"
                 src="person.jpg"
               />
             </div>
-            <div class="text-center grid grid-cols-1 sm:grid-cols-2">
+            <div className="text-center grid grid-cols-1 sm:grid-cols-2">
               <div className="flex flex-col items-center justify-center border p-5">
                 <h1>{wifiIcon}</h1>
                 <p className="mt-3 font-medium">Wireless Connectivity</p>
