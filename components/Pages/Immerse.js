@@ -1,10 +1,13 @@
 export default function Immerse() {
   return (
-    <div id="product" className="mt-10 flex flex-col-reverse md:flex-row items-center justify-between">
-      <div className="w-11/12">
+    <div
+      id="product"
+      className="mt-10 flex flex-col-reverse md:flex-row items-center justify-between overflow-hidden"
+    >
+      <div className="w-11/12" data-aos="fade-right">
         <img src="2.jpg" className="w-full" />
       </div>
-      <div className="w-full max-w-lg space-y-5">
+      <div data-aos="fade-left" className="w-full max-w-lg space-y-5">
         <h1 className="text-5xl font-bold">Immerse yourself in your music</h1>
 
         <div className="flex">

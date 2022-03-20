@@ -5,12 +5,15 @@ export default function Hero() {
       style={{
         minHeight: "70vh",
       }}
-      className="flex items-center justify-center text-center relative"
+      className="flex items-center justify-center text-center relative overflow-hidden"
     >
-      <h1 className="text-[36vw] xl:text-[450px] font-extrabold opacity-10">
-        {year}
-      </h1>
+      <div data-aos="fade-up">
+        <h1 className="text-[36vw] xl:text-[450px] font-extrabold opacity-10">
+          {year}
+        </h1>
+      </div>
       <img
+        data-aos="fade-down"
         src="1.jpg"
         className="absolute left-0 right-0 ml-auto mr-auto w-[600px]"
       />

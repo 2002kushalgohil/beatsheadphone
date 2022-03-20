@@ -20,7 +20,10 @@ export default function BgImage() {
   );
 
   return (
-    <div className="mt-10 w-full h-96 rounded-xl overflow-hidden relative">
+    <div
+      data-aos="fade-up"
+      className="mt-10 w-full h-96 rounded-xl overflow-hidden relative"
+    >
       <img src="person.jpg" className="h-full w-full object-cover rotate-180" />
       <div className="absolute bottom-0 backdrop-blur-xl left-0 m-6 flex items-center justify-center cursor-pointer p-3 rounded-lg">
         <div className="mr-2 bg-red-500 p-2 rounded-full">{playIcon}</div>

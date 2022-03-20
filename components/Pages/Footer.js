@@ -98,7 +98,7 @@ export default function Footer() {
           <p className="opacity-50">Copyright &#169; {year}- Kushal</p>
         </div>
 
-        <div className=" flex justify-center xl:justify-end items-center w-full xl:w-1/3 mt-10 xl:mt-0 space-x-5 opacity-80">
+        <div className=" flex justify-center xl:justify-end items-center w-full xl:w-1/3 mt-10 xl:mt-0 space-x-5 opacity-90">
           <a href="#" target="_blank" rel="noreferrer">
             {linkedIcon}
           </a>

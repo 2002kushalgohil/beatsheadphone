@@ -156,11 +156,12 @@ export default function ExtraFeatures() {
     },
   ];
   return (
-    <div id="features" className="mt-10 flex items-center justify-around flex-wrap">
+    <div id="features" className="mt-10 flex items-center justify-around flex-wrap overflow-hidden">
       {data.map((data, index) => {
         return (
           <div
             key={index}
+            data-aos="fade-up"
             className="flex space-y-5 items-center justify-between flex-col max-w-sm p-6 m-2 rounded-lg shadow-lg hover:shadow-xl cursor-pointer"
           >
             <h1>{data.icon}</h1>

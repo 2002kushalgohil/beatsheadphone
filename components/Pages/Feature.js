@@ -148,14 +148,17 @@ export default function Feature() {
   );
 
   return (
-    <div>
+    <div className="overflow-hidden">
       <div className="w-full flex items-center justify-center flex-col text-center">
         <h1 className="text-5xl font-bold">Solo Pro</h1>
         <p className="w-full sm:w-96 mt-5 font-medium">
           The only Headset you'll ever need.
         </p>
       </div>
-      <div className="flex items-center justify-center py-10">
+      <div
+        data-aos="fade-up"
+        className="flex items-center justify-center py-10"
+      >
         <div class="rounded-xl shadow-xl hover:shadow-2xl transition cursor-pointer overflow-hidden max-w-3xl">
           <div class="md:flex">
             <div class="md:shrink-0">
