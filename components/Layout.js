@@ -12,15 +12,22 @@ export default function Layout({ children }) {
     });
   }, []);
   return (
-    <div className="px-5 sm:px-10 md:px-14 text-gray-600 bg-white">
-      <Head>
-        <title>Beats Headphone</title>
-        <meta name="description" content="Beats Headphone" />
-      </Head>
-      <div>
-        <NavBar />
-        {children}
-        <Footer />
+    <div className="px-5 sm:px-10 md:px-14 text-gray-600 bg-white flex items-center justify-center">
+      <div
+        className="w-full"
+        style={{
+          maxWidth: "1500px",
+        }}
+      >
+        <Head>
+          <title>Beats Headphone</title>
+          <meta name="description" content="Beats Headphone" />
+        </Head>
+        <div>
+          <NavBar />
+          {children}
+          <Footer />
+        </div>
       </div>
     </div>
   );
